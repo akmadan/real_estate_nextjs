@@ -12,11 +12,11 @@ export default function Layout({ children }) {
       </Head>
       <Box maxWidth='1280px' m='auto'>
         <header>
-          {/* <Navbar /> */}
+          <Navbar />
         </header>
         <main>{children}</main>
         <footer>
-          {/* <Footer /> */}
+          <Footer />
         </footer>
       </Box>
     </>
